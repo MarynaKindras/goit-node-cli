@@ -5,10 +5,6 @@
 - Створи репозиторій з назвою `goit-node-cli`, склонуй та ініціалізуй в ньому проєкт за допомогою команди npm init. Встанови як залежність проєкту пакет [commander](https://www.npmjs.com/package/commander)
 - В корінь проєкту помісти файли з папки [src](./src)
 
-### Результат виконаного ДЗ:
-
-![Results](./assets/Task_1.png)
-
 ## Крок 2
 
 - У файл `contacts.js` зроби імпорт модулів `fs` (у версії, яка працює з промісами - `fs/promises`) і `path` для роботи з файловою системою.
@@ -54,15 +50,25 @@ async function addContact(name, email, phone) {
 ```shell
 # Отримуємо і виводимо весь список контактів у вигляді таблиці (console.table)
 node index.js -a list
+### Результат виконаного ДЗ:
+
+![Results](./assets/Test_1.png)
 
 # Отримуємо контакт по id і виводимо у консоль об'єкт контакту або null, якщо контакту з таким id не існує.
 node index.js -a get -i 05olLMgyVQdWRwgKfg5J6
+### Результат виконаного ДЗ:
 
+![Results](./assets/Test_2.png)
 # Додаємо контакт та виводимо в консоль об'єкт новоствореного контакту
 node index.js -a add -n Mango -e mango@gmail.com -p 322-22-22
+### Результат виконаного ДЗ:
 
+![Results](./assets/Test_3.png)
 # Видаляємо контакт та виводимо в консоль об'єкт видаленого контакту або null, якщо контакту з таким id не існує.
 node index.js -a remove -i qdggE76Jtbfd9eWJHrssH
+### Результат виконаного ДЗ:
+
+![Results](./assets/Test_4.png)
 ```
 
 ## Критерії прийому
