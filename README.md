@@ -47,28 +47,31 @@ async function addContact(name, email, phone) {
 
 Запусти команди в терміналі і переконайся, що код працює належним чином.
 
-```shell
 # Отримуємо і виводимо весь список контактів у вигляді таблиці (console.table)
+
 node index.js -a list
 
 ![Results](./assets/Test_1.png)
 
 # Отримуємо контакт по id і виводимо у консоль об'єкт контакту або null, якщо контакту з таким id не існує.
+
 node index.js -a get -i 05olLMgyVQdWRwgKfg5J6
 
 ![Results](./assets/Test_2.png)
 
 # Додаємо контакт та виводимо в консоль об'єкт новоствореного контакту
+
 node index.js -a add -n Mango -e mango@gmail.com -p 322-22-22
 
 ![Results](./assets/Test_3.png)
 
 # Видаляємо контакт та виводимо в консоль об'єкт видаленого контакту або null, якщо контакту з таким id не існує.
+
 node index.js -a remove -i qdggE76Jtbfd9eWJHrssH
+
 ### Результат виконаного ДЗ:
 
 ![Results](./assets/Test_4.png)
-```
 
 ## Критерії прийому
 
